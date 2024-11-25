@@ -155,7 +155,7 @@ public actor APIClient {
         }
     }
 
-#if !os(Linux)
+//#if !os(Linux)
 
     // MARK: Downloads
 
@@ -201,7 +201,7 @@ public actor APIClient {
         return response
     }
 
-#endif
+// #endif
 
     // MARK: Upload
 
